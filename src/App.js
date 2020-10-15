@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react"
+import { ListOfCountries } from "./pages/ListOfCountries"
+
+
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <>
+      <ListOfCountries />
+    </>
   )
 }
