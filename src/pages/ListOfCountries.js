@@ -11,6 +11,8 @@ height: 400px;
 padding: 130px;
 overflow: scroll;
 background-image: url(${Background});
+background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 const CountryList = styled.section`
